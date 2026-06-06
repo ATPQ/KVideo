@@ -9,15 +9,7 @@
   
   // 构建配置 - 使用 next-on-pages
   "build": {
-    "command": "npm run pages:build",
-    "cwd": "./",
-    "watch_paths": ["src/**", "app/**", "public/**", "next.config.ts"]
-  },
-  
-  // 静态资源配置
-  "assets": {
-    "directory": ".vercel/output/static",
-    "binding": "ASSETS"
+    "command": "npm run pages:build"
   },
   
   // 开发服务器
